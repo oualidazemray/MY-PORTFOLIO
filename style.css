@@ -11,6 +11,9 @@ header {
     padding: 1em 0;
     text-align: center;
 }
+img {
+    border-radius: 50%;
+}
 
 section {
     max-width: 800px;
