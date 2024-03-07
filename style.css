@@ -1,33 +1,48 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 10;
-    padding: 10;
-    background-color: #73c9e1;
+    margin: 0;
+    padding: 0;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url('ba.jpg');
 }
+img {
+    align-items: end;
+    border-radius: 50%;
+  }
+#name{
+    color: rgba(99, 255, 190, 1);
+    align-items: start;
+    font-family: monospace;
+
+}
+  
 
 header {
-    background-color: #333;
+    background-color: #0e3f6919;
     color: white;
     padding: 1em 0;
     text-align: center;
 }
-img {
-    border-radius: 50%;
+.c{
+    color: rgb(247, 132, 0); font-size: 14pt; font-family: Tahoma;
 }
-
 section {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 900px;
+    margin: 30px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(195, 0, 255, 0.527);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-    color: #333;
-}
 
+.h12{
+    color: rgba(99, 255, 190, 1);
+    align-items: start;
+    font-family: monospace;
+    font-size: 16pt;}
 ul {
     list-style-type: none;
     padding: 0;
@@ -47,8 +62,8 @@ a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #000000;
+    color: rgb(0, 232, 249);
     text-align: center;
     padding: 1em 0;
     position: fixed;
