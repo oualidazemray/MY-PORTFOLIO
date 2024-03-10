@@ -13,6 +13,7 @@ img {
   }             
 #name{
     color: rgba(99, 255, 190, 1);
+    
     align-items: start;
     font-family: monospace;
 
