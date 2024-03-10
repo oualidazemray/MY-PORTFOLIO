@@ -7,7 +7,7 @@ body {
     background-position: right top;
     background-image: url('ba.jpg');
 }
-img {
+img { 
     align-items: end;
     border-radius: 50%;
   }
