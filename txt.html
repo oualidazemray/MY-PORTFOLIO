@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oualid's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+   
 </head>
 <body>
     <header>
@@ -12,7 +13,8 @@
     </header>
 
     <div class="container">
-        <section id="about-me">
+        <button class="section-button" onclick="toggleSection('about-me')">About Me</button>
+        <section id="about-me" class="content-section" style="display: none;">
             <h2>About Me</h2>
             <img src="mypic.png" alt="Oualid's Photo" class="profile-photo">
             <p>
@@ -20,7 +22,8 @@
             </p>
         </section>
 
-        <section id="education">
+        <button class="section-button" onclick="toggleSection('education')">Education</button>
+        <section id="education" class="content-section" style="display: none;">
             <h2>Education</h2>
             <ul>
                 <li>Mohamed VI Technical High School - Azilal, 2018 - 2021 (Electrical Science and Technology)</li>
@@ -29,7 +32,11 @@
             </ul>
         </section>
 
-        <section id="experience">
+        <!-- Add buttons and sections for other content (Experience, Skills, Languages, Contact) -->
+
+        <!-- Example for Experience section -->
+        <button class="section-button" onclick="toggleSection('experience')">Experience</button>
+        <section id="experience" class="content-section" style="display: none;">
             <h2>Experience</h2>
             <ul>
                 <li>School Projects - CPGE: Led a team of 4 students to implement automation in the marine salt extraction system using Python.</li>
@@ -37,43 +44,11 @@
                 <li>ENIM-Clubs Experience: Member of the ENIM-MinesIT club, actively involved in the project cell and media cell. Also, a member of the OLYMPIADES MINES-RABAT committee, serving as head of the design cell with over 40 designs. Additionally, involved in ENIM-benevolat.</li>
             </ul>
         </section>
-
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Python</li>
-                <li>C, C++</li>
-                <li>HTML, CSS</li>
-                <li>Java (30%)</li>
-                <li>SQL</li>
-                <li>Linux (Kali, Oracle VM)</li>
-                <li>MATLAB</li>
-                <li>Microsoft PowerPoint, Excel</li>
-                <li>Trading</li>
-                <li>Leadership</li>
-            </ul>
-        </section>
-
-        <section id="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>Tamazight - Fluent</li>
-                <li>Arabic - Native</li>
-                <li>French - Advanced</li>
-                <li>English - Intermediate</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p><strong>Phone:</strong> 0657983711</p>
-            <p><strong>Email:</strong> oualid.azemray@enim.ac.ma</p>
-            <p><strong>Location:</strong> Agdal, Rabat</p>
-        </section>
     </div>
 
     <footer>
         <p>Contact: oualid.azemray@enim.ac.ma</p>
     </footer>
+    <script src="js.js"></script>
 </body>
 </html>
