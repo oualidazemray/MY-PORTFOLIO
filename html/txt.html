@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oualid's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Oualid's Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <button class="section-button" onclick="toggleSection('about-me')">About Me</button>
+        <section id="about-me" class="content-section" style="display: none;">
+            <h2>About Me</h2>
+            <img src="mypic.png" alt="Oualid's Photo" class="profile-photo">
+            <p>
+                I am Oualid, a first-year Engineering student at ENSMR EX-ENIM specializing in Information Technology and Informatics. Passionate about IT, from software development to cybersecurity. Seeking 1-2 month internship for hands-on experience. Committed to continuous improvement and eager to contribute to innovative projects, aiming to make a positive impact in the technology sector.
+            </p>
+        </section>
+
+        <button class="section-button" onclick="toggleSection('education')">Education</button>
+        <section id="education" class="content-section" style="display: none;">
+            <h2>Education</h2>
+            <ul>
+                <li>Mohamed VI Technical High School - Azilal, 2018 - 2021 (Electrical Science and Technology)</li>
+                <li>CPGE IBN BAJJA - Beni Mellal, 2021 - 2023 (Technology and Industrial Sciences)</li>
+                <li>National Higher School of Mines of Rabat, 2021 - 2023 (IT Engineering)</li>
+            </ul>
+        </section>
+
+        <!-- Add buttons and sections for other content (Experience, Skills, Languages, Contact) -->
+
+        <!-- Example for Experience section -->
+        <button class="section-button" onclick="toggleSection('experience')">Experience</button>
+        <section id="experience" class="content-section" style="display: none;">
+            <h2>Experience</h2>
+            <ul>
+                <li>School Projects - CPGE: Led a team of 4 students to implement automation in the marine salt extraction system using Python.</li>
+                <li>Project for CNC: Developed street smart lighting poles using Arduino and simulation by ISIS.</li>
+                <li>ENIM-Clubs Experience: Member of the ENIM-MinesIT club, actively involved in the project cell and media cell. Also, a member of the OLYMPIADES MINES-RABAT committee, serving as head of the design cell with over 40 designs. Additionally, involved in ENIM-benevolat.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contact: oualid.azemray@enim.ac.ma</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
