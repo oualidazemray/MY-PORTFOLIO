@@ -1,6 +1,6 @@
 /* Reset default margin and padding */
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
+    margin: 1;
     padding: 0;
 }
 
